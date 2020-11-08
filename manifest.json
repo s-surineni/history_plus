@@ -1,0 +1,16 @@
+{
+    "name": "History Plus",
+    "version": "1.0",
+    "description": "Better search for your history!",
+    "permissions": ["history",
+        "activeTab", "declarativeContent", "storage"],
+    "background": {
+        "scripts": ["search_history.js"],
+        "persistent": false
+    },
+    "page_action": {
+        "default_popup": "popup.html",
+        "options_page": "options.html"
+    },
+    "manifest_version": 2
+}
